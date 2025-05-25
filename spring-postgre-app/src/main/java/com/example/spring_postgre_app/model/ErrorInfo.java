@@ -1,5 +1,12 @@
 package com.example.spring_postgre_app.model;
 
-public class ErrorInfo extends Exception {
+import lombok.Getter;
 
+@Getter
+public class ErrorInfo {
+    private String message;
+
+    public ErrorInfo(String message) {
+        this.message = message;
+    }
 }

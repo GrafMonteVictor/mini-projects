@@ -12,7 +12,7 @@ public class ErrorController {
     @ExceptionHandler(Exception.class)
     @ResponseBody
     public ErrorInfo processException(Exception e) {
-        return new ErrorInfo();
+        return new ErrorInfo(e.getMessage());
     }
 
 }
