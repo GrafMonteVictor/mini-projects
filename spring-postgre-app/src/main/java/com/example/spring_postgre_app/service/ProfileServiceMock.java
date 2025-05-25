@@ -1,5 +1,7 @@
-package com.example.spring_postgre_app;
+package com.example.spring_postgre_app.service;
 
+import com.example.spring_postgre_app.exception.ProfileNotFoundException;
+import com.example.spring_postgre_app.model.Profile;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -7,7 +9,7 @@ import org.springframework.stereotype.Service;
 spring создаст один экземпляр,
 сервис не содержит внутренних состояний
 */
-public class ProfileServiceMock implements ProfileService{
+public class ProfileServiceMock implements ProfileService {
     @Override
     public Profile getProfile(int personId) {
         if (personId == 123) {

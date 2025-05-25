@@ -1,4 +1,4 @@
-package com.example.spring_postgre_app;
+package com.example.spring_postgre_app.exception;
 
 public class ProfileNotFoundException extends RuntimeException {
     private final int personId;

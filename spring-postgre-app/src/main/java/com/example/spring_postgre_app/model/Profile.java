@@ -1,4 +1,4 @@
-package com.example.spring_postgre_app;
+package com.example.spring_postgre_app.model;
 
 import lombok.Getter;
 

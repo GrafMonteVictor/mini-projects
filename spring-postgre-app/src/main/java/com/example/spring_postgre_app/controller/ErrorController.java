@@ -1,5 +1,6 @@
-package com.example.spring_postgre_app;
+package com.example.spring_postgre_app.controller;
 
+import com.example.spring_postgre_app.model.ErrorInfo;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
